@@ -13,16 +13,9 @@ const colors = {
 // Fator de redução de tamanho ao passar o mouse
 const hoverFactor = 0.9;
 
-/**
- * Função de configuração inicial do p5.js.
- * Executada uma única vez no início.
- */
 function setup() {
   createCanvas(400, 400); // Define o tamanho da tela
   noStroke(); // Remove as bordas de todas as formas
-
-  // --- Definição e posicionamento das formas ---
-  // A estrutura de dados de cada forma é: { x, y, raio, cor1, [cor2], tipo }
 
   // 1ª Fila (superior)
   shapes.push({ x: 80,  y: 80, r: 60, c1: colors.red, type: 'circle' });
@@ -50,10 +43,7 @@ function setup() {
   shapes.push({ x: x_coords3[5], y: y3, r: r3, c1: colors.black, type: 'semi-left'});
 }
 
-/**
- * Função de desenho do p5.js.
- * É executada continuamente em loop para criar a animação.
- */
+
 function draw() {
   background(colors.background); // Pinta o fundo a cada quadro
 
