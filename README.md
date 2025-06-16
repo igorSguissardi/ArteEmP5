@@ -3,4 +3,4 @@ Obra de arte Vera Molnar, Circles et demi-circles (1953), executada com bibliote
 
 ### Interação
 Quando você passa o cursor do mouse sobre as figuras geométricas elas dão uma leve diminuida.
-rode o projeto e teste essa animação!
+Rode o projeto e teste essa animação!
